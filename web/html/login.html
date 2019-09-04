@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/web/css/bootstrap.min.css">
+    <style>
+        form{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <form class="center-block">
+                <div class="form-group">
+                    <label for="">用户名</label>
+                    <input type="email" class="form-control" id="username" name="username" placeholder="请输入用户名">
+                </div>
+                <div class="form-group">
+                    <label for="">密码</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="请输入密码">
+                </div>
+               
+                <button type="button" class="btn btn-default">登录</button>
+                <a href="/web/html/regist.html">去注册</a>
+            </form>
+        </div>
+    </div>
+    <script src="/web/sea.js"></script>
+    <script src="/web/js/jquery.js"></script>
+    <script src="/web/js/bootstrap.min.js"></script>
+    <script>
+        //引入项目入口文件
+        seajs.use('/web/modules/login/login')
+    </script>
+</body>
+</html>

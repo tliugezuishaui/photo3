@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/web/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="imgLeft col-lg-6">
+                    <img src="/web/images/logo.png" alt="">
+                </div>
+                <div class="imgRight col-lg-6 text-right">
+                    <img src="/web/images/text.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- nav -->
+    <div class="nav">
+            <div class="container">
+                <div class="row">
+                    <img src="/web/images/default.png" alt="">
+                    <span>wanglaowu</span>
+                    <a href="#">退出</a>
+                </div>
+            </div>
+        </div>
+        <!-- content -->
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">全部用户</a></li>
+                            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">我的相册</a></li>
+                            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">管理相册</a></li>
+                            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">修改信息</a></li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="home">全部用户</div>
+                            <div role="tabpanel" class="tab-pane" id="profile">我的相册</div>
+                            <div role="tabpanel" class="tab-pane" id="messages">管理相册</div>
+                            <div role="tabpanel" class="tab-pane" id="settings">修改信息</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="/web/sea.js"></script>
+    <script src="/web/js/jquery.js"></script>
+    <script src="/web/js/bootstrap.min.js"></script>
+    <script>
+        //引入项目入口文件
+        seajs.use('/web/modules/index/main.js')
+    </script>
+</body>
+</html>
